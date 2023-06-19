@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,33 @@
     <link rel="stylesheet" href="css/home.css">
     <title>Titulo</title>
 </head>
+
 <body>
-    
+
+    <div class="boxLogin">
+        <h1>Login</h1>
+        <form>
+            <p class="Usuário">
+                <label for="Usuário"> Usuário </label>
+                <input type="text" placeholder="ex: admin" required>
+            </p>
+
+            <p class="senha">
+                <label for="senha"> senha </label>
+                <input type="password" id="senha" placeholder="ex: admin123" required>
+            </p>
+            <p class="MostrarSenha">
+                <input type="checkbox" onclick="MostrarSenha()">Mostrar Senha
+            </p>
+
+            <p class="login">
+                <button type="submit">login</button>
+            </p>
+
+        </form>
+    </div>
+
     <script src="js/home.js"></script>
 </body>
+
 </html>
