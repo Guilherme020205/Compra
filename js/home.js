@@ -12,7 +12,7 @@ const form = document.querySelector('form');
 
 form.onsubmit = (e) => {
 
-    location.href = "index2.html";
+    location.href = "pagProdutos.html";
 
     return false;
 };
