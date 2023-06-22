@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/pagProdutos/pagProdutos.css">
+    <link rel="stylesheet" href="css/pagProdutos/cssboxLanches/boxLanches.css">
+    <link rel="stylesheet" href="css/pagProdutos/cssboxBebidas/boxBebidas.css">
+    <link rel="stylesheet" href="css/pagProdutos/cssboxExtra/boxExtra.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <title>Titulo</title>
@@ -18,9 +21,9 @@
         </div>
         <div class="boxInteracao">
             <div class="buttons">
-                <button class="lanche"><img src="icons/icons8-coxinha-64.png" alt="icons8-coxinha-64"></button>
-                <button class="bebidas"><img src="icons/icons8-coca-cola-64.png" alt="icons8-coca-cola-64"></button>
-                <button class="extra"><img src="icons/icons8-picolé-48.png" alt="icons8-picolé-48"></button>
+                <button class="btnLanches"><img src="icons/icons8-coxinha-64.png" alt="icons8-coxinha-64"></button>
+                <button class="btnBebidas"><img src="icons/icons8-coca-cola-64.png" alt="icons8-coca-cola-64"></button>
+                <button class="btnExtras"><img src="icons/icons8-picolé-48.png" alt="icons8-picolé-48"></button>
             </div>
             <div class="pagHistorico">
                 <a href="pagHistoricoDeCompras.html">
@@ -32,16 +35,16 @@
 
     <!-- Lanche -->
 
-    <div class="lanches">
+    <div class="boxLanches">
 
-        <div class="boxLanche">
+        <div class="lanches">
 
-            <div class="produto">
-                <div class="apresentacao">
+            <div class="produto_lanche">
+                <div class="apresentacao_lanche">
                     <img src="img/imgLanches/coxinha_frango.png" alt=" ">
                     <p>Coxinha</p>
                 </div>
-                <div class="preco">
+                <div class="preco_lanche">
                     <p>R$4,00</p>
                 </div>
                 <div class="buttons_add">
@@ -50,12 +53,12 @@
                 </div>
             </div>
 
-            <div class="produto">
-                <div class="apresentacao">
+            <div class="produto_lanche">
+                <div class="apresentacao_lanche">
                     <img src="img/imgLanches/risoles_carne.png" alt=" ">
                     <p>Risoles de Carne</p>
                 </div>
-                <div class="preco">
+                <div class="preco_lanche">
                     <p>R$3,00</p>
                 </div>
                 <div class="buttons_add">
@@ -64,12 +67,12 @@
                 </div>
             </div>
 
-            <div class="produto">
-                <div class="apresentacao">
+            <div class="produto_lanche">
+                <div class="apresentacao_lanche">
                     <img src="img/imgLanches/esfirra_de_pizza.png" alt=" ">
                     <p>Esfirra de Pizza</p>
                 </div>
-                <div class="preco">
+                <div class="preco_lanche">
                     <p>R$5,00</p>
                 </div>
                 <div class="buttons_add">
@@ -78,12 +81,12 @@
                 </div>
             </div>
 
-            <div class="produto">
-                <div class="apresentacao">
+            <div class="produto_lanche">
+                <div class="apresentacao_lanche">
                     <img src="img/imgLanches/salsicha_empanada.png" alt=" ">
                     <p>Salsicha Empanada</p>
                 </div>
-                <div class="preco">
+                <div class="preco_lanche">
                     <p>R$2,50</p>
                 </div>
                 <div class="buttons_add">
@@ -93,12 +96,12 @@
             </div>
 
 
-            <div class="produto">
-                <div class="apresentacao">
+            <div class="produto_lanche">
+                <div class="apresentacao_lanche">
                     <img src="img/imgLanches/espetinho_de_frango.png" alt=" ">
                     <p>Espetinho de Frango</p>
                 </div>
-                <div class="preco">
+                <div class="preco_lanche">
                     <p>R$5,00</p>
                 </div>
                 <div class="buttons_add">
@@ -108,12 +111,12 @@
             </div>
 
 
-            <div class="produto">
-                <div class="apresentacao">
+            <div class="produto_lanche">
+                <div class="apresentacao_lanche">
                     <img src="img/imgLanches/pastel_de_carne.png" alt=" ">
                     <p>Pastel de Carne</p>
                 </div>
-                <div class="preco">
+                <div class="preco_lanche">
                     <p>R$5,50</p>
                 </div>
                 <div class="buttons_add">
@@ -123,12 +126,12 @@
             </div>
 
 
-            <div class="produto">
-                <div class="apresentacao">
+            <div class="produto_lanche">
+                <div class="apresentacao_lanche">
                     <img src="img/imgLanches/pastel_de_frango.png" alt=" ">
                     <p>Patel de Frango</p>
                 </div>
-                <div class="preco">
+                <div class="preco_lanche">
                     <p>R$5,50</p>
                 </div>
                 <div class="buttons_add">
@@ -139,13 +142,165 @@
         </div>
     </div>
     <!-- Lanche -->
+    <!-- Bebidas -->
+    <div class="boxBebidas">
 
+        <div class="bebidas">
+
+            <div class="produto_bebida">
+                <div class="apresentacao_bebida">
+                    <img src="img/imgBebidas/Coca-Cola2l.png" alt=" ">
+                    <p>Coca-Cola 2L</p>
+                </div>
+                <div class="preco_bebida">
+                    <p>R$12,00</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+
+            <div class="produto_bebida">
+                <div class="apresentacao_bebida">
+                    <img src="img/imgBebidas/Coca-Cola350ml.png" alt=" ">
+                    <p>Coca-Cola 350ML</p>
+                </div>
+                <div class="preco_bebida">
+                    <p>R$5,00</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+
+            <div class="produto_bebida">
+                <div class="apresentacao_bebida">
+                    <img src="img/imgBebidas/Coca-Cola250ml.png" alt=" ">
+                    <p>Coca-Cola 250ML</p>
+                </div>
+                <div class="preco_bebida">
+                    <p>R$2,50</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+
+            <div class="produto_bebida">
+                <div class="apresentacao_bebida">
+                    <img src="img/imgBebidas/Pureza350ml.png" alt=" ">
+                    <p>Pureza 350ML</p>
+                </div>
+                <div class="preco_bebida">
+                    <p>R$4,50</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+
+            <div class="produto_bebida">
+                <div class="apresentacao_bebida">
+                    <img src="img/imgBebidas/Pureza200ml.png" alt=" ">
+                    <p>Pureza 200ML</p>
+                </div>
+                <div class="preco_bebida">
+                    <p>R$2,00</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+
+            <div class="produto_bebida">
+                <div class="apresentacao_bebida">
+                    <img src="img/imgBebidas/agua-sem-gas1,5l.png" alt=" ">
+                    <p>água sem gás 1,5L</p>
+                </div>
+                <div class="preco_bebida">
+                    <p>R$3,50</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+
+            <div class="produto_bebida">
+                <div class="apresentacao_bebida">
+                    <img src="img/imgBebidas/agua-com-gas1,5l.png" alt=" ">
+                    <p>água com gás 1,5L</p>
+                </div>
+                <div class="preco_bebida">
+                    <p>R$3,50</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bebidas -->
+    <div class="boxExtras">
+
+        <div class="extras">
+
+            <div class="produto_extras">
+                <div class="apresentacao_Extras">
+                    <img src="img/imgExtra/Salada-de-frutas.png" alt=" ">
+                    <p>Salada de Frutas</p>
+                </div>
+                <div class="preco_extras">
+                    <p>R$4,00</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>         
+            
+            <div class="produto_extras">
+                <div class="apresentacao_Extras">
+                    <img src="img/imgExtra/bolo-de-pote.webp" alt=" ">
+                    <p>Bolo de Pote</p>
+                </div>
+                <div class="preco_extras">
+                    <p>R$7,00</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+
+            <div class="produto_extras">
+                <div class="apresentacao_Extras">
+                    <img src="img/imgExtra/Picole.jpg" alt=" ">
+                    <p>Picolé de Fruta</p>
+                </div>
+                <div class="preco_extras">
+                    <p>R$3,50</p>
+                </div>
+                <div class="buttons_add">
+                    <input style="background-color: rgb(178, 243, 243);" type="submit" value="+">
+                    <input style="background-color: rgb(255, 144, 144);" type="submit" value="-">
+                </div>
+            </div>
+        </div>
+
+    </div>
     <!-- Botão Voltar ao Topo -->
     <a class="bntVoltarAoTopo" href="#top">
         <i class="bi bi-arrow-up-circle"></i>
     </a>
     <!-- Botão Voltar ao Topo -->
-    <script src="js/pagProdutos.js"></script>
+    <script src="js/pagProdutos/pagProdutos.js"></script>
 </body>
 
 </html>

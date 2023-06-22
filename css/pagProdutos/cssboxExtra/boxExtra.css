@@ -1,0 +1,60 @@
+/*boxBebidas*/
+.boxExtras {
+    display: none;
+    margin-top: 3vh;
+    margin-left: 8vw;
+}
+
+.extras {
+    background-image: url(fundo_produtos.avif);
+    background-attachment: fixed;
+    width: 30vw;
+    height: max-content;
+    border-radius: 5px;
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: left;
+    justify-content: center;
+}
+
+.apresentacao_extras {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+    justify-content: left;
+}
+
+.preco_extras {
+    display: flex;
+    flex-direction: row;
+    gap: 0vw;
+    align-items: center;
+    justify-content: end;
+}
+
+.produto_extras {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 2%;
+    padding: 0.5vw;
+}
+
+.apresentacao_extras>img {
+    border-radius: 100%;
+    width: 7vw;
+}
+
+.buttons_add>input {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    width: 5vw;
+    height: 3vh;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+/*boxBebidas*/
