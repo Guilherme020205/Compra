@@ -1,8 +1,9 @@
-/*boxBebidas*/
+/*boxExtras*/
 .boxExtras {
     display: none;
-    margin-top: 3vh;
-    margin-left: 8vw;
+    position: absolute;
+    top: 10vh;
+    left: 5vh;
 }
 
 .extras {
@@ -57,4 +58,4 @@
     cursor: pointer;
 }
 
-/*boxBebidas*/
+/*boxExtras*/
